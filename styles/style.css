@@ -1,11 +1,44 @@
-#bar{
-    background-color: aqua;
-    padding: 2px;
+.red{
+    background-color: red;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
+.container-fluid{
+    padding: 0 !important;
+ }
+ .nav-link{
+     padding-left: 10px !important;
+ }
+  #landing{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  .page{
+      height: 92vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .green{
+      border-radius: 5%;
+      width: 40%;
+      height: 30%;
+      background-color: black;
+      color: white;
+      opacity: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  #landing-img{
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media screen and (min-width: 992px) {
+    .navbar{
+        height: 8vh;
+    }
+  }
