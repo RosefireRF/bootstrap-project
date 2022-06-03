@@ -21,8 +21,8 @@
   }
   .green{
       border-radius: 5%;
-      width: 40%;
-      height: 30%;
+      width: 80%;
+      height: 25%;
       background-color: black;
       color: white;
       opacity: 90%;
@@ -34,11 +34,15 @@
   #landing-img{
     background-image: url("../images/3.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
   }
   @media screen and (min-width: 992px) {
     .navbar{
         height: 8vh;
+    }
+    .green{
+        width: 40%;
+        height: 30%;
     }
   }
