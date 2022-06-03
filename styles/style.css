@@ -7,22 +7,23 @@
  .nav-link{
      padding-left: 10px !important;
  }
-  #landing{
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-  }
+
   .page{
       height: 92vh;
       display: flex;
       align-items: center;
       justify-content: space-around;
   }
+  .double-page{
+    height: 184vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
   .green{
       border-radius: 5%;
-      width: 80%;
-      height: 25%;
+      width: 72vw;
+      height: 25vh;
       background-color: black;
       color: white;
       opacity: 90%;
@@ -41,8 +42,11 @@
     .navbar{
         height: 8vh;
     }
+    .double-page{
+        height: 92vh;
+    }
     .green{
-        width: 40%;
-        height: 30%;
+        width: 40vw;
+        height: 30vh;
     }
   }
