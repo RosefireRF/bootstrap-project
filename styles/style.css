@@ -1,5 +1,5 @@
-.red{
-    background-color: red;
+body{
+    overflow-x:hidden;
 }
 .container-fluid{
     padding: 0 !important;
@@ -7,22 +7,18 @@
  .nav-link{
      padding-left: 10px !important;
  }
-
   .page{
     position: relative;
-      height: 92vh;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   .double-page{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .coli{
-      flex-direction: column;
   }
   .quote{
       font-style: italic;
@@ -35,29 +31,39 @@
     background-color: none;
     margin-top: 2%;
   }
-  .seperate{
-      width: 100%;
-      background-color: none;
-  }
   .card-body{
       color: black;
   }
-  .green{
+  .introduction{
       border-radius: 5%;
       width: 72vw;
       height: 25vh;
       background-color: black;
       color: white;
-      opacity: 90%;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
       text-align: center;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   .row{
       color: white;
       opacity: 90%;
       border-radius: 5%;
+  }
+  footer{
+      margin-top: 5vh;
+  }
+  footer .row{
+      height: 100%;
+      margin: 0%;
+      width: 100%;
+      white-space: nowrap;
+  }
+  .logo h2{
+      font-size: 16px;
+      display: inline;
   }
   .text{
       background-color: black;
@@ -68,14 +74,16 @@
     background-repeat: repeat;
     background-position: center;
   }
+  footer{
+      background-color: grey;
+      height: 15vh;
+  }
+ 
   @media screen and (min-width: 992px) {
     .navbar{
         height: 8vh;
     }
-    .double-page{
-        height: 92vh;
-    }
-    .green{
+    .introduction{
         width: 40vw;
         height: 30vh;
     }
@@ -83,5 +91,9 @@
   @media screen and (min-width: 800px){
       .double-page{
           height: 92vh;
+      }
+      footer{
+          margin-top: 0vh;
+          height: 10vh;
       }
   }
