@@ -1,12 +1,13 @@
 body{
     overflow-x:hidden;
 }
-.container-fluid{
-    padding: 0 !important;
- }
  .nav-link{
      padding-left: 10px !important;
  }
+ .container-fluid{
+    padding: 0;
+ }
+
   .page{
     position: relative;
     height: 92vh;
