@@ -21,6 +21,9 @@ body{
     align-items: center;
     justify-content: space-around;
   }
+  #navBarRow{
+    --bs-gutter-x: 0;
+  }
   .quote{
       font-style: italic;
       opacity: 90%;
@@ -90,6 +93,9 @@ body{
     }
   }
   @media screen and (min-width: 800px){
+      #navBarRow{
+        --bs-gutter-x: 1.5rem;
+      }
       .double-page{
           height: 92vh;
       }
