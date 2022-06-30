@@ -7,28 +7,30 @@ body{
  .container-fluid{
     padding: 0;
  }
-
-  .page{
+  .mk-page{
     position: relative;
     height: 92vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  .double-page{
+  .mk-double-page{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
+  .navbar{
+    min-height: 8vh;
+  }
   #navBarRow{
     --bs-gutter-x: 0;
   }
-  .quote{
+  .mk-quote{
       font-style: italic;
       opacity: 90%;
   }
-  .card-holder{
+  .mk-card-holder{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,9 +40,9 @@ body{
   .card-body{
       color: black;
   }
-  .introduction{
-      border-radius: 5%;
-      width: 72vw;
+
+  .mk-introduction{
+      width: 100%;
       height: 25vh;
       background-color: black;
       color: white;
@@ -65,11 +67,15 @@ body{
       width: 100%;
       white-space: nowrap;
   }
-  .logo h2{
+  .mk-logo h2{
       font-size: 16px;
       display: inline;
   }
-  .text{
+  .mk-logo a{
+    text-decoration: none;
+    color: white;
+  }
+  .mk-text{
       background-color: black;
   }
   #landing-img{
@@ -78,25 +84,30 @@ body{
     background-repeat: repeat;
     background-position: center;
   }
+  #landing-img .row{
+    width: 100%;
+    --bs-gutter-x: 0rem;
+  }
   footer{
       background-color: grey;
       height: 15vh;
   }
  
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 993px) {
     .navbar{
         height: 8vh;
     }
-    .introduction{
-        width: 40vw;
-        height: 30vh;
+    .mk-introduction{
+        width: 100vw;
+        height: 20vh;
+        border-radius: 0%;
     }
   }
-  @media screen and (min-width: 800px){
+  @media screen and (min-width: 769px){
       #navBarRow{
         --bs-gutter-x: 1.5rem;
       }
-      .double-page{
+      .mk-double-page{
           height: 92vh;
       }
       footer{
