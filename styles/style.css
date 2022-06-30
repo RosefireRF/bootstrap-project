@@ -1,5 +1,6 @@
 body{
     overflow-x:hidden;
+    background-color: #020623;
 }
  .nav-link{
      padding-left: 10px !important;
@@ -39,8 +40,12 @@ body{
     background-color: none;
     margin-top: 2%;
   }
+  .card{
+    border-color: #6F126A;
+  }
   .card-body{
-      color: black;
+      color: white;
+      background-color: #6F126A;
   }
 
   .mk-introduction{
@@ -77,13 +82,10 @@ body{
     text-decoration: none;
     color: white;
   }
-  .mk-text{
-      background-color: black;
-  }
+
   #landing-img{
     background-image: url("../images/bg-min.jpg");
     background-size: cover;
-    background-repeat: repeat;
     background-position: center;
   }
   #landing-img .row{
@@ -91,7 +93,7 @@ body{
     --bs-gutter-x: 0rem;
   }
   footer{
-      background-color: grey;
+      background-color: #1E2228;
       height: 15vh;
   }
  
