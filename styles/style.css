@@ -21,6 +21,8 @@ body{
     justify-content: space-around;
   }
   .navbar{
+    padding-left: 2%;
+    padding-right: 2%;
     min-height: 8vh;
   }
   #navBarRow{
@@ -79,7 +81,7 @@ body{
       background-color: black;
   }
   #landing-img{
-    background-image: url("../images/3-min.jpg");
+    background-image: url("../images/bg-min.jpg");
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
