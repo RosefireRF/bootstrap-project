@@ -19,6 +19,13 @@ body{
     align-items: center;
     justify-content: space-around;
   }
+  .mk-solo-page{
+    position: relative;
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
   #landing-img{
     background-image: url("../images/bg-min.jpg");
     background-size: cover;
