@@ -1,6 +1,8 @@
 :root{
   --mk-purple: #6F126A;
   --mk-background: #020623;
+  --mk-grey: #252525;
+  --mk-light-grey: #404040;
 }
 body{
     overflow-x:hidden;
@@ -12,6 +14,15 @@ body{
  .container-fluid{
     padding: 0;
  }
+ .mk-bg-grey{
+  background-color: var(--mk-grey);
+ }
+ .mk-bg-light-grey{
+  background-color: var(--mk-light-grey);
+ }
+ .mk-bg-purple{
+  background-color: var(--mk-purple);
+ }
   .mk-page{
     position: relative;
     height: 92vh;
@@ -21,7 +32,6 @@ body{
   }
   .mk-solo-page{
     position: relative;
-    height: 72vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,14 +68,13 @@ body{
     align-items: center;
     justify-content: center;
     background-color: none;
-    margin-top: 5%;
-  }
-  .card{
-    border-color: var(--mk-purple);
+    margin-top: 3%;
   }
   .card-body{
       color: white;
-      background-color: var(--mk-purple);
+  }
+  .modal-backdrop{
+    position: relative;
   }
   .mk-introduction{
       width: 100%;
@@ -157,6 +166,9 @@ body{
       }
       .mk-solo-page{
         height: 82vh;
+      }
+      .mk-card-holder{
+        margin-top: 0%;
       }
       footer{
           margin-top: 0vh;
