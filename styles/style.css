@@ -21,7 +21,7 @@ body{
   }
   .mk-solo-page{
     position: relative;
-    height: 82vh;
+    height: 72vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,7 +35,7 @@ body{
     width: 100%;
     --bs-gutter-x: 0rem;
   }
-  .mk-double-page{
+  .mk-collapsable-page{
     position: relative;
     display: flex;
     align-items: center;
@@ -141,9 +141,6 @@ body{
   }
  
   @media screen and (min-width: 993px) {
-    #navBarRow{
-      --bs-gutter-x: 1.5rem;
-    }
     .navbar{
         height: 8vh;
         padding: 0% 2% 0% 2%;
@@ -155,8 +152,11 @@ body{
     }
   }
   @media screen and (min-width: 769px){
-      .mk-double-page{
+      .mk-collapsable-page{
           height: 92vh;
+      }
+      .mk-solo-page{
+        height: 82vh;
       }
       footer{
           margin-top: 0vh;
