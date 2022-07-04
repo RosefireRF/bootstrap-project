@@ -33,6 +33,7 @@ body{
   .mk-solo-page{
     position: relative;
     display: flex;
+    min-height: 72vh;
     align-items: center;
     justify-content: space-around;
   }
@@ -73,9 +74,6 @@ body{
   .card-body{
       color: white;
   }
-  .modal-backdrop{
-    position: relative;
-  }
   .mk-introduction{
       width: 100%;
       height: 25vh;
@@ -90,7 +88,6 @@ body{
   }
   .row{
       color: white;
-      opacity: 90%;
       border-radius: 5%;
   }
   footer{
