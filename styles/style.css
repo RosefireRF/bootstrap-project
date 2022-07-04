@@ -90,9 +90,7 @@ body{
       color: white;
       border-radius: 5%;
   }
-  footer{
-      margin-top: 5vh;
-  }
+
   footer .row{
       height: 100%;
       margin: 0%;
@@ -168,7 +166,7 @@ body{
           height: 92vh;
       }
       .mk-solo-page{
-        height: 82vh;
+        height: 84vh;
       }
       footer{
           margin-top: 0vh;
