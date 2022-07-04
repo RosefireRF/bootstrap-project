@@ -69,7 +69,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: none;
-    margin-top: 3%;
+    margin-bottom: 3%;
   }
   .card-body{
       color: white;
@@ -146,29 +146,32 @@ body{
       height: 15vh;
   }
  
-  @media screen and (min-width: 993px) {
+  @media screen and (min-width: 992px) {
     .navbar{
         height: 8vh;
         padding: 0% 2% 0% 2%;
+    }
+    footer{
+      padding: 0% 2% 0% 2%;
     }
     .mk-introduction{
         width: 100vw;
         height: 20vh;
         border-radius: 0%;
     }
+    .mk-card-holder{
+      margin-bottom: 0%;
+    }
   }
-  @media screen and (min-width: 769px){
+  @media screen and (min-width: 768px){
       .mk-collapsable-page{
           height: 92vh;
       }
       .mk-solo-page{
         height: 82vh;
       }
-      .mk-card-holder{
-        margin-top: 0%;
-      }
       footer{
           margin-top: 0vh;
-          height: 10vh;
+          height: 8vh;
       }
   }
