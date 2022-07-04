@@ -73,19 +73,19 @@
                       <form class="row g-3" id="inquiryForm" method="POST" action="#">
                         <div class="col-12">
                           <label for="projectName" class="form-label">Project name</label>
-                          <input type="text" class="form-control" name="projectName" id="projectName" placeholder="Our awesome idea">
+                          <input required="true" type="text" class="form-control" name="projectName" id="projectName" placeholder="Our awesome idea">
                         </div>
                         <div class="col-lg-6">
                           <label for="companyName" class="form-label">Company name</label>
-                          <input type="text" class="form-control" name="companyName" id="companyName" placeholder="Techyon">
+                          <input required="true" type="text" class="form-control" name="companyName" id="companyName" placeholder="Techyon">
                         </div>
                         <div class="col-md-8 col-lg-6">
                           <label for="inputEmail" class="form-label">Email</label>
-                          <input type="email" class="form-control" name="email" id="inputEmail" placeholder="johnsmith@gmail.com">
+                          <input required="true" type="email" class="form-control" name="email" id="inputEmail" placeholder="johnsmith@gmail.com">
                         </div>
                         <div class="col-md-4 col-lg-12">
                           <label for="inputArea" class="form-label">Area of expertise</label>
-                          <select id="inputArea" name="areaOfExpertise" class="form-select">
+                          <select required="true" id="inputArea" name="areaOfExpertise" class="form-select">
                             <option selected disabled>Choose...</option>
                             <option>Web dev</option>
                             <option>App dev</option>
@@ -94,8 +94,8 @@
                           </select>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">Short project description</label>
-                          <textarea class="form-control" form="inquiryForm" name="description" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about the project"></textarea>
+                          <label for="projectDescription" class="form-label">Short project description</label>
+                          <textarea class="form-control" form="inquiryForm" name="description" id="projectDescription" rows="3" placeholder="Tell us about the project"></textarea>
                         </div>
                       </form>
                     </div>
