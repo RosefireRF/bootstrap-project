@@ -22,6 +22,7 @@ body{
  }
  .mk-bg-purple{
   background-color: var(--mk-purple);
+  color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
   .mk-page{
     position: relative;
