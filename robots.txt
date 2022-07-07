@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /admins
+Disallow: /admins/
 
 Sitemap: https://rosefirerf.github.io/bootstrap-project/sitemap.xml
