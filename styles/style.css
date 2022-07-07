@@ -68,7 +68,7 @@ color: white;
   .mk-solo-page{
     position: relative;
     display: flex;
-    min-height: 72vh;
+    min-height: 77vh;
     align-items: center;
     justify-content: space-around;
   }
