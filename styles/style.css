@@ -16,9 +16,11 @@ body{
  }
  .mk-bg-grey{
   background-color: var(--mk-grey);
+  color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
  .mk-bg-light-grey{
   background-color: var(--mk-light-grey);
+  color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
  .mk-bg-purple{
   background-color: var(--mk-purple);
@@ -86,8 +88,8 @@ body{
     background-color: none;
     margin-bottom: 3%;
   }
-  .card-body{
-      color: white;
+  .btn{
+    border: 0px !important;
   }
   .mk-introduction{
       width: 100%;
