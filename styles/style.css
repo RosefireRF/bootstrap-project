@@ -96,6 +96,15 @@ color: white;
   align-items: center;
   justify-content: space-around;
 }
+.mk-shadow-lite{
+  box-shadow: 0 1rem 3rem rgba(255,255,255,.175) !important;
+}
+.mk-shadow-standard{
+  box-shadow: 0 1rem 3rem rgba(255,255,255,.20) !important;
+}
+.mk-shadow-premium{
+  box-shadow: 0 1rem 3rem rgba(255,255,255,.25) !important;
+}
   #landing-img{
     background-image: url("../images/keyboard-background.jpg");
     background-size: cover;
