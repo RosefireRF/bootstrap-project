@@ -78,19 +78,19 @@
                     <div class="modal-body">
                       <form class="row g-3" id="inquiryForm" method="POST" action="#">
                         <div class="col-12">
-                          <label for="projectName" class="form-label">Project name</label>
+                          <label for="projectName" class="form-label">Project name<span class="text-danger">*</span></label>
                           <input required="true" type="text" class="form-control" name="projectName" id="projectName" placeholder="Our awesome idea">
                         </div>
                         <div class="col-lg-6">
-                          <label for="companyName" class="form-label">Company name</label>
+                          <label for="companyName" class="form-label">Company name<span class="text-danger">*</span></label>
                           <input required="true" type="text" class="form-control" name="companyName" id="companyName" placeholder="Techyon">
                         </div>
                         <div class="col-md-8 col-lg-6">
-                          <label for="inputEmail" class="form-label">Email</label>
+                          <label for="inputEmail" class="form-label">Email<span class="text-danger">*</span></label>
                           <input required="true" type="email" class="form-control" name="email" id="inputEmail" placeholder="johnsmith@gmail.com">
                         </div>
                         <div class="col-md-4 col-lg-12">
-                          <label for="inputArea" class="form-label">Area of expertise</label>
+                          <label for="inputArea" class="form-label">Area of expertise<span class="text-danger">*</span></label>
                           <select required="true" id="inputArea" name="areaOfExpertise" class="form-select">
                             <option selected disabled>Choose...</option>
                             <option value="webDev">Web dev</option>
@@ -100,7 +100,7 @@
                           </select>
                         </div>
                         <div class="mb-3">
-                          <label for="projectDescription" class="form-label">Short project description</label>
+                          <label for="projectDescription" class="form-label">Short project description<span class="text-danger">*</span></label>
                           <textarea required="true" class="form-control" form="inquiryForm" name="description" id="projectDescription" rows="3" placeholder="A brief description of the project"></textarea>
                         </div>
                       </form>
