@@ -39,9 +39,24 @@ body{
 .mk-selection{
   border: 0px;
 }
+.mk-logo h2{
+  font-size: 16px;
+  display: inline;
+}
+.mk-logo a{
+text-decoration: none;
+color: white;
+}
 .mk-selection:hover{
   background-color: var(--bs-success);
   color: white;
+}
+.mk-info{
+  padding-left: 0%;
+  list-style-position: inside;
+}
+.mk-p{
+  margin-bottom: 0%;
 }
  .btn-dark:hover{
   color: black;
@@ -122,14 +137,7 @@ body{
       width: 100%;
       white-space: nowrap;
   }
-  .mk-logo h2{
-      font-size: 16px;
-      display: inline;
-  }
-  .mk-logo a{
-    text-decoration: none;
-    color: white;
-  }
+
   #footer-icon-holder{
     list-style-type: none;
     padding: 0%;
