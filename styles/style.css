@@ -58,23 +58,23 @@ color: white;
 .mk-p{
   margin-bottom: 0%;
 }
-  .mk-page{
-    position: relative;
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .mk-solo-page{
-    position: relative;
-    display: flex;
-    min-height: 77vh;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .mk-quote{
-    font-style: italic;
-    opacity: 90%;
+.mk-page{
+  position: relative;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mk-solo-page{
+  position: relative;
+  display: flex;
+  min-height: 77vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.mk-quote{
+  font-style: italic;
+  opacity: 90%;
 }
 .mk-card-holder{
   display: flex;
