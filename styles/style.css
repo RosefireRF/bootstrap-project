@@ -120,6 +120,9 @@ color: white;
   #navBarRow{
     --bs-gutter-x: 0;
   }
+  .card{
+    width: 18rem;
+  }
   .btn{
     border: 0px !important;
   }
