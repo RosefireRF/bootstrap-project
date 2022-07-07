@@ -24,6 +24,20 @@ body{
   background-color: var(--mk-purple);
   color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
+ .mk-btn-purple{
+  background-color: var(--mk-purple);
+  color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
+ }
+ .mk-btn-purple:hover{
+   background-color: #020623;
+   border: 0px;
+ }
+ .mk-responsive-width{
+   width: 100%;
+ }
+ .accordion-button:not(.collapsed){
+   background-color: var(--mk-grey);
+ }
   .mk-page{
     position: relative;
     height: 92vh;
@@ -160,6 +174,9 @@ body{
     }
     .mk-card-holder{
       margin-bottom: 0%;
+    }
+    .mk-responsive-width{
+      width: 75%;
     }
   }
   @media screen and (min-width: 768px){

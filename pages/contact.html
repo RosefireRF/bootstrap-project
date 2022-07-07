@@ -16,7 +16,7 @@
       <div class="col-12">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="..\index.html">Techyon</a>
+            <a class="navbar-brand" href="index.html"><h1 class="h4">Techyon</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,13 +26,13 @@
                   <a class="nav-link" aria-current="page" href="..\index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="contact.html">Contact</a>
+                  <a class="nav-link active" href="contact.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">About author</a>
                 </li>
               </ul>
             </div>
@@ -41,17 +41,74 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid mk-solo-page">
+  <div class="container-fluid py-4 py-md-0 flex-column mk-solo-page">
     <!--Contact-->
-    <div class="row w-75">
-      <div class="col-12 text-center bg-dark">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic inventore a earum quo dolor error praesentium iste, aliquam libero quia provident eum, rerum aut tempora?
+    <div class="row mk-responsive-width mx-auto h-25">
+      <div class="col-12 text-center">
+        <h2>About us</h2>
+        <p class="mk-quote">Techyon has existed for over 10 years, providing great and ever-evolving services to all of its customers</p>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            Our locations
+            <ul>
+              <li>Ulica ulica, Belgrade</li>
+              <li>Gaten gaten, Stockholm</li>
+              <li>Street street, New York</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6">
+            Work hours
+            <ul>
+              <li>Monday thru friday: 8 - 4 PM CEST</li>
+              <li>Saturday and sunday: 10 - 4 PM CEST</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      
+      <div class="col-12 col-lg-6">
+      </div>
     </div>
     <!--FAQ-->
-    <div class="row">
-
+    <div class="row mk-responsive-width h-50">
+      <div class="col-12"><h2 class="text-center">Frequently Asked Questions</h2></div>
+      <div class="col-12"><div class="accordion" id="accordionExample">
+        <div class="accordion-item bg-dark">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button mk-bg-purple" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-dark">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed mk-bg-purple" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-dark">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed mk-bg-purple" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div></div>
     </div>
   </div>
   <footer class="bg-dark">
