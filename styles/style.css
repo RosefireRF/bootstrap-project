@@ -27,16 +27,26 @@ body{
   color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
  .mk-btn-purple{
-  background-color: var(--mk-purple);
+  background-color: var(--mk-purple) !important;
   color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
  }
  .mk-btn-purple:hover{
-   background-color: #020623;
-   border: 0px;
+   opacity: 0.9 !important;
  }
  .mk-responsive-width{
-   width: 100%;
- }
+  width: 100%;
+}
+.mk-selection{
+  border: 0px;
+}
+.mk-selection:hover{
+  background-color: var(--bs-success);
+  color: white;
+}
+ .btn-dark:hover{
+  color: black;
+  background-color: white;
+}
  .accordion-button:not(.collapsed){
    background-color: var(--mk-grey);
  }
@@ -105,9 +115,7 @@ body{
   }
   .row{
       color: white;
-      border-radius: 5%;
   }
-
   footer .row{
       height: 100%;
       margin: 0%;
@@ -151,8 +159,8 @@ body{
     animation-fill-mode: forwards;
     animation-duration: 0.5s;
   }
-  #instagram-icon:hover{
-    color: #405DE6;
+  #sitemap-icon:hover{
+    color: #fcba03;
     animation-name: color-change;
     animation-fill-mode: forwards;
     animation-duration: 0.5s;
@@ -160,7 +168,9 @@ body{
   footer{
       height: 15vh;
   }
- 
+ .accordion-body p{
+   margin-bottom: 0rem;
+ }
   @media screen and (min-width: 992px) {
     .navbar{
         height: 8vh;

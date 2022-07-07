@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ilija Krstić">
+    <meta name="description" content="Check out the pricing of this great tech company!">
+    <meta name="keywords" content="tech, techyon, pricing, development, tech solutions">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
-    <title>Base Structure</title>
+    <title>Techyon Pricing</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 <body>
@@ -16,23 +19,23 @@
       <div class="col-12">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><h1 class="h4">Techyon</h1></a>
+            <a class="navbar-brand" href="../index.html"><h1 class="h4">Techyon</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="..\index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">About us</a>
+                  <a class="nav-link" href="aboutus.html">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">About author</a>
+                  <a class="nav-link" href="https://rosefirerf.github.io/school-site/">About author</a>
                 </li>
               </ul>
             </div>
@@ -44,8 +47,8 @@
   <div class="container-fluid mk-solo-page">
     <div class="row py-4 py-md-0 w-100 h-100">
       <div class="col-12 flex flex-column align-center justify-content-center">
-        <h2 style="display: block;">Pricing</h2>
-        <h3 style="display: block;">Check out our great pricing!</h3>
+        <h2 class="d-block">Pricing</h2>
+        <h3 class="d-block" >Check out our great pricing!</h3>
       </div>
       <div class="col-12 col-md-4  mk-card-holder">
         <div class="card mk-bg-grey" style="width: 18rem;">
@@ -63,14 +66,14 @@
             <li class="list-group-item mk-bg-grey">Marketing &#10060;</li>
           </ul>
           <div class="card-body">
-            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-2 w-100">Select</button>
+            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-1 py-1 w-100 mk-selection">Select</button>
               <!--Modal-->
               <div class="modal fade" id="formModal1" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content bg-dark">
                     <div class="modal-header">
                       <h5 class="modal-title" id="formModalLabel">Send inquiry</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <form class="row g-3" id="inquiryForm" method="POST" action="#">
@@ -122,14 +125,14 @@
             <p class="card-text">Our standard package!</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item mk-bg-light-grey text-light">Est. delivery time: 1/2 mo.</li>
-            <li class="list-group-item mk-bg-light-grey text-light">Team size: 15 members</li>
-            <li class="list-group-item mk-bg-light-grey text-light">Quick support &#10004;</li>
-            <li class="list-group-item mk-bg-light-grey text-light">Extensive quality control &#10004;</li>
-            <li class="list-group-item mk-bg-light-grey text-light" >Marketing &#10060;</li>
+            <li class="list-group-item mk-bg-light-grey">Est. delivery time: 1/2 mo.</li>
+            <li class="list-group-item mk-bg-light-grey">Team size: 15 members</li>
+            <li class="list-group-item mk-bg-light-grey">Quick support &#10004;</li>
+            <li class="list-group-item mk-bg-light-grey">Extensive quality control &#10004;</li>
+            <li class="list-group-item mk-bg-light-grey" >Marketing &#10060;</li>
           </ul>
           <div class="card-body">
-            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-2 w-100">Select</button>
+            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-1 py-1 w-100 mk-selection">Select</button>
           </div>
         </div>
       </div>
@@ -150,7 +153,7 @@
             
           </ul>
           <div class="card-body">
-            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-2 w-100">Select</button>
+            <button data-bs-toggle="modal" data-bs-target="#formModal1" class="card-link btn-light px-1 py-1 w-100 mk-selection">Select</button>
           </div>
         </div>
       </div>
@@ -173,7 +176,7 @@
             <a href="https://www.linkedin.com/"><span class="iconify" id="linkedin-icon" data-icon="mdi:linkedin"></span></a>
           </li>
           <li class="col-md-3 col-6">
-            <a href="https://www.instagram.com/"><span class="iconify" id="instagram-icon" data-icon="ant-design:instagram-filled"></span></a>
+            <a href="sitemap.xml"><span class="iconify" id="sitemap-icon" data-icon="bx:sitemap"></span></a>
           </li>
         </ul>
       </div>
