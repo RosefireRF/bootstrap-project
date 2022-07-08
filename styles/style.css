@@ -147,7 +147,6 @@ color: white;
       height: 100%;
       margin: 0%;
       width: 100%;
-      white-space: nowrap;
   }
 
   #footer-icon-holder{
@@ -196,8 +195,8 @@ color: white;
         height: 8vh;
         padding: 0% 2% 0% 2%;
     }
-    footer{
-      padding: 0% 2% 0% 2%;
+    footer .row{
+      padding: 0% 2% 0% 2% !important;
     }
     .mk-introduction{
         width: 100vw;
