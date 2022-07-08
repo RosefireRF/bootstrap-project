@@ -179,6 +179,9 @@ color: white;
   footer{
       height: 15vh;
   }
+  footer .row{
+    padding: 0% 4% 0% 4%;
+  }
  .accordion-body p{
    margin-bottom: 0rem;
  }
